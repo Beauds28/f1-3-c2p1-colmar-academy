@@ -1,0 +1,223 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+
+}
+
+header {
+  display: flex;
+  height:64px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  align-items:center;
+  background-color: white;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*The CSS for positioning the Logo*/
+#logo {
+  margin: 24px;
+  flex: 1;
+}
+
+#logo p{
+  display: inline-block;
+  color: #666666;
+  height: 32px;
+  text-align: center;
+}
+
+/*The CSS for positioning the navigation links*/
+nav{
+  padding-right: 16px;
+  display:block;
+}
+
+header span{
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color:#666666;
+}
+
+/*The code below is for the main body of the webpage*/
+
+.main{
+  position: relative;
+  top: 3rem;
+  width: 100%;
+}
+
+.learn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cccccc
+}
+
+.learn img{
+  padding: 32px 24px;
+  display: flex;
+}
+
+.learn-content{
+  margin: 24px;
+}
+
+div{
+  display: block;
+}
+
+.learn-content p{
+  color: grey;
+  margin: 30px 0px;
+}
+
+.button{
+  border-radius: 2px;
+  text-align: center;
+  padding: 8px 0 8px 0;
+  background-color: #595959;
+  color: white;
+}
+
+
+/*CSS for the first section of the main body*/
+.section-1{
+  display:flex;
+  width: 100%;
+}
+
+.large-column{
+  flex-direction: column;
+  width: 60%;
+}
+
+.practice{
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.medium-column{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.section{
+  display: flex;
+  padding: 32px 24px;
+  align-items: center;
+}
+
+.section img{
+  width: 220px;
+  height: 220px;
+}
+
+.text{
+  margin: 37px;
+  text-align: left;
+}
+
+#lecture{
+  background-color: #cccccc;
+}
+
+/*CSS for the Second main section of the webpage*/
+
+.section-2{
+  background-color: #cccccc;
+  text-align: center;
+  padding: 32px;
+}
+
+.s2-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.s2-row{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+#left-center{
+  margin-right: 32px;
+}
+.block{
+  flex-direction: column;
+  background-color: white;
+}
+
+.block-text{
+  text-align: left;
+  padding-bottom: 24px;
+  padding-left: 41px;
+  color: #666666;
+}
+
+.block-text h2{
+  color: black;
+}
+
+
+/*The CSS To style the Thesis exhibit section of the webpage*/
+.thesis{
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+
+
+.video_text{
+  display: flex;
+}
+
+video{
+  width: 60%;
+  margin: 0;
+  padding: 24px;
+  object-fit: contain;
+}
+
+.info-text{
+  padding-bottom: 24px;
+  padding-left: 41px;
+  text-align: left;
+  color: black;
+}
+
+.column{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-block{
+  padding: 32px 24px;
+  display: flex;
+  align-items: center;
+}
+
+/*The CSS for the footer at the bottom of the webpage*/
+footer{
+  border-top: solid 1px #d9d9d9;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.copyright{
+  flex: 1;
+  margin-left: 24px;
+}
